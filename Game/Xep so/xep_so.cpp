@@ -3,7 +3,7 @@
 #include <conio.h>
 using namespace std;
 
-int a[3][3] = {1,2,3,4,0,5,6,7,8};
+int a[3][3] = {2,1,8,4,0,3,6,5,7};
 int x = 1, y = 1;
 int dx, dy;
 
@@ -33,6 +33,7 @@ void In() {
     HANDLE q = GetStdHandle(STD_OUTPUT_HANDLE);
     CONSOLE_CURSOR_INFO p;
     p.bVisible = false;
+    p.dwSize = 20;
     SetConsoleCursorInfo(q, &p);  
 }
 
@@ -51,7 +52,7 @@ bool KiemTraThang() {
 }
 
 int main() {
-    cout << "Bien dich thanh cong !";
+    cout << "GAME XEP SO";
     getch();
     system("cls");
 
