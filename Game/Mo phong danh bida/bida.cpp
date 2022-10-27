@@ -54,6 +54,8 @@ void HIenThiBang() {
     }
 }
 
+// hello nha
+
 // Huong tiep theo nen chuyen toi
 void BanhLan() {
     if (y + dy <= 0) dy = 1;
